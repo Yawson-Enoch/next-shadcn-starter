@@ -1,9 +1,5 @@
-import { Button } from '@/components/ui/button';
+import ThemeSwitcher from '@/components/common/theme-switcher';
 
 export default function Page() {
-  return (
-    <div className="container flex min-h-screen items-center justify-center py-12">
-      <Button>GYBEX</Button>
-    </div>
-  );
+  return <ThemeSwitcher />;
 }
