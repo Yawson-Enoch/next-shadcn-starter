@@ -1,5 +1,5 @@
 import { Metadata } from 'next';
-import ThemeSwitcher from '@/components/common/theme-switcher';
+
 import { siteConfig } from '@/config/site';
 import {
   openGraphImages,
@@ -10,6 +10,7 @@ import {
   twitterCreator,
   twitterImages,
 } from '@/lib/shared-metadata';
+import ThemeSwitcher from '@/components/common/theme-switcher';
 
 const title = siteConfig.name;
 const description = siteConfig.description;

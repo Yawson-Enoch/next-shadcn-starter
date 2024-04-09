@@ -1,6 +1,7 @@
 import { Metadata } from 'next';
 import Link from 'next/link';
-import { Button } from '@/components/ui/button';
+import { HomeIcon } from '@radix-ui/react-icons';
+
 import {
   openGraphImages,
   openGraphLocale,
@@ -10,7 +11,7 @@ import {
   twitterCreator,
   twitterImages,
 } from '@/lib/shared-metadata';
-import { HomeIcon } from '@radix-ui/react-icons';
+import { Button } from '@/components/ui/button';
 
 const title = 'Page Not Found';
 const description = 'Oops! The page you are looking for cannot be found.';

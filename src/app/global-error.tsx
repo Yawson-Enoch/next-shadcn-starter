@@ -2,9 +2,10 @@
 
 import '@/styles/globals.css';
 
-import { Button } from '@/components/ui/button';
-import { cn } from '@/lib/utils';
 import { ReloadIcon } from '@radix-ui/react-icons';
+
+import { cn } from '@/lib/utils';
+import { Button } from '@/components/ui/button';
 
 import { fontSans } from './fonts';
 import Providers from './providers';
