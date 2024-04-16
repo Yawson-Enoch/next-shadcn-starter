@@ -4,6 +4,9 @@
 
 @layer base {
   :root {
+    --radius: 12px;
+
+    /* light theme colors */
     --background: 0 0% 100%;
     --foreground: 240 10% 3.9%;
 
@@ -31,8 +34,6 @@
     --border: 240 5.9% 90%;
     --input: 240 5.9% 90%;
     --ring: 240 10% 3.9%;
-
-    --radius: 0.5rem;
   }
 
   .dark {
@@ -71,6 +72,6 @@
     @apply border-border;
   }
   body {
-    @apply bg-background text-foreground;
+    @apply min-h-dvh bg-background font-sans text-foreground antialiased;
   }
 }
