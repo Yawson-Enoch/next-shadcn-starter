@@ -1,13 +1,8 @@
 {
   "root": true,
-  "extends": [
-    "next/core-web-vitals",
-    "plugin:tailwindcss/recommended",
-    "plugin:prettier/recommended"
-  ],
+  "extends": ["next/core-web-vitals", "plugin:tailwindcss/recommended"],
   "rules": {
-    "tailwindcss/no-custom-classname": "off",
-    "prettier/prettier": "warn"
+    "tailwindcss/no-custom-classname": "off"
   },
   "settings": {
     "tailwindcss": {
