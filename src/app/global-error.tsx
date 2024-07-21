@@ -2,7 +2,7 @@
 
 import '@/styles/globals.css';
 
-import { ReloadIcon } from '@radix-ui/react-icons';
+import { RotateCwIcon } from 'lucide-react';
 
 import { cn } from '@/lib/utils';
 import { Button } from '@/components/ui/button';
@@ -23,7 +23,7 @@ export default function GlobalError({ reset }: { reset: () => void }) {
               <h2 className="text-balance">Something went wrong!</h2>
             </div>
             <Button size={'lg'} className="group" onClick={() => reset()}>
-              <ReloadIcon className="size-4 group-hover:animate-spin group-hover:duration-700 group-hover:group-hover:ease-in-out group-hover:repeat-1" />
+              <RotateCwIcon className="size-4 group-hover:animate-spin group-hover:duration-700 group-hover:group-hover:ease-in-out group-hover:repeat-1" />
               <span>Refresh</span>
             </Button>
           </main>

@@ -18,7 +18,7 @@ module.exports = {
     '^@/lib/(.*)$',
     '^@/store/(.*)$',
     '^@/atoms/(.*)$',
-    '^@/context/(.*)$',
+    '^@/contexts/(.*)$',
     '^@/hooks/(.*)$',
     '^@/components/ui/(.*)$',
     '^@/components/(.*)$',
